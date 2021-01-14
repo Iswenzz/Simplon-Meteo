@@ -1,0 +1,27 @@
+{
+	"root": true,
+	"extends": [
+		"plugin:vue/essential",
+		"eslint:recommended"
+	],
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"no-unused-vars": "warn",
+		"no-var-requires": "off",
+		"indent": [
+			"error",
+			"tab"
+		],
+		"quotes": [
+			"error",
+			"double"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"no-empty-function": "off"
+	}
+}
