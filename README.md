@@ -1,24 +1,25 @@
-# simplon-vue
+![](https://i.imgur.com/XFvRaaO.png)
 
-## Project setup
-```
-npm install
-```
+# Simplon Meteo
+![](https://i.imgur.com/AyDXHao.jpg)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Contexte du projet
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Vous devez créer une SPA qui affiche la météo du jour.
 
-### Lints and fixes files
-```
-npm run lint
-```
+Voici les contraintes minimales :
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* un champ de recherche par ville qui permet d’actualiser le contenu de la page pour afficher le temps dédié
+* vous devez à minima afficher la température réelle et ressentie / la température minimale et maximale / la date et bien sûr la ville avec sa latitude et sa longitude
+* vous devez utiliser OpenWeather
+* intégration responsive SANS framework CSS
+* des icônes pour symboliser les différents états. Par exemple différents thermomètres avec des couleurs différentes en fonction de la température ou alors utilisation des icônes de l’api
+* Bonus : la vitesse du vent et sa direction
+* Bonus : heures du lever et coucher de soleil
+* Bonus : géolocalisation au démarrage de l’application
+
+## Modalités pédagogiques
+La date de rendu sur Simplonline est fixée au lundi 18 Janvier à 9h30.
+
+## Livrables
+Projet déposé sur Gitlab et Simplonline Vous devrez réaliser ce TP avec Vuejs.
